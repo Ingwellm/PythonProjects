@@ -16,6 +16,10 @@ def filter_long_words(x = [], n, *args):
 
 #17
 def is_pallindrome(x):
+	if x == x[::-1]
+		print "Is pallindrome"
+	else:
+		print "Is not pallindrome"
 	
 	
 #18

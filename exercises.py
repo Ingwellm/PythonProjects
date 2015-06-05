@@ -21,7 +21,7 @@ def is_pallindrome(x):
 	else:
 		print "Is not pallindrome"
 	
-	
+		
 #18
 def pangram(x):
 	for i in x:
@@ -61,13 +61,24 @@ def rot(x):
 #23
 import re
 x = "This   is  very funny  and    cool.Indeed!"
-#a = re.sub("\s\s+", " ", x)
 a = " ".join(x.split())
 print a
 	
 #24
 
 #32
+
+#Automate the Boring Stuff
+
+def displayInventory():
+	print("Inventory:")
+	total = 0
+	for k, v in inventory.items():
+		print(str(v) + ' ' + k)
+		total += v
+	print("Total number of items: " + str(total)
+
+	
 	
 	
 		

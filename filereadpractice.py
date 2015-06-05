@@ -1,13 +1,13 @@
-#File open and check if Pallindrome
+#File open and check if Palindrome
 # location = raw_input("Enter location of file ")
 
 # def is_pallindrome(x):
 	# f = open(location).read().split('\n')
 	# for lines in f:
 		# if lines == lines[::-1]:
-			# print "%s is a pallindrome" % lines
+			# print "%s is a palindrome" % lines
 		# else:
-			# print "%s is not a pallindrome" % lines
+			# print "%s is not a palindrome" % lines
 # is_pallindrome(list)
 
 

@@ -1,0 +1,12 @@
+#Polynomials
+
+poly = (0.0,0.0,5.0,9.3,7.0)
+x = -13
+
+def evaluate_poly(poly, x):
+    total = 0.0
+    for i in xrange(len(poly)):
+        total += poly[i] * (x ** i)
+    return total
+
+print evaluate_poly(poly, x)
